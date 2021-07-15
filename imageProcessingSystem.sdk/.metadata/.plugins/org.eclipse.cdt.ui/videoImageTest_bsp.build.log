@@ -1,4 +1,4 @@
-21:54:45 **** Build of project videoImageTest_bsp ****
+20:05:47 **** Auto Build of project videoImageTest_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_5/src"
 make -C ps7_cortexa9_0/libsrc/axidma_v9_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
@@ -98,5 +98,5 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm
 "Compiling xadcps"
 'Finished building libraries'
 
-21:55:38 Build Finished (took 53s.238ms)
+20:06:29 Build Finished (took 41s.339ms)
 

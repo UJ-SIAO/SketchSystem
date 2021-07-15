@@ -174,7 +174,7 @@ proc create_root_design { parentCell } {
   set vid_vsync [ create_bd_port -dir O vid_vsync ]
 
   # Create instance: Sketch_IP_0, and set properties
-  set Sketch_IP_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:Sketch_IP:1.4.5 Sketch_IP_0 ]
+  set Sketch_IP_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:Sketch_IP:1.5.0 Sketch_IP_0 ]
 
   # Create instance: axi_dma_0, and set properties
   set axi_dma_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 axi_dma_0 ]

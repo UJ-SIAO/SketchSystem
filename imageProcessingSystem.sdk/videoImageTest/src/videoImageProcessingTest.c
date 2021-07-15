@@ -121,11 +121,11 @@ int main(){
 		return XST_FAILURE;
 	}
 	//UART
-	while(totalTransmittedBytes < imageSize){
+	/*while(totalTransmittedBytes < imageSize){
 		transmittedBytes =  XUartPs_Send(&myUart,(u8*)&filteredImage[totalTransmittedBytes],1);
 		totalTransmittedBytes += transmittedBytes;
 		usleep(2000);
-	}
+	}*/
 
     while(1){
     	xil_printf("Enter your choice\n\r1.Original Image\n\r2.Edge detected image\n\r");

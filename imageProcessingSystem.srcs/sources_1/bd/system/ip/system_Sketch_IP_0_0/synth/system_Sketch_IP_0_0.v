@@ -47,12 +47,12 @@
 // DO NOT MODIFY THIS FILE.
 
 
-// IP VLNV: xilinx.com:user:Sketch_IP:1.4.5
-// IP Revision: 26
+// IP VLNV: xilinx.com:user:Sketch_IP:1.5.0
+// IP Revision: 27
 
 (* X_CORE_INFO = "imageProcessTop,Vivado 2017.4" *)
 (* CHECK_LICENSE_TYPE = "system_Sketch_IP_0_0,imageProcessTop,{}" *)
-(* CORE_GENERATION_INFO = "system_Sketch_IP_0_0,imageProcessTop,{x_ipProduct=Vivado 2017.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=Sketch_IP,x_ipVersion=1.4.5,x_ipCoreRevision=26,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "system_Sketch_IP_0_0,imageProcessTop,{x_ipProduct=Vivado 2017.4,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=Sketch_IP,x_ipVersion=1.5.0,x_ipCoreRevision=27,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module system_Sketch_IP_0_0 (
   axi_clk,
